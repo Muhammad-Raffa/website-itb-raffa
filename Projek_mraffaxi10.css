@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: aliceblue;
+    color: #007BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img{
+    float: left;
+    padding-left: 10px;
+}
+
+.logo h1 {
+    margin-left: 15px;
+    float: left;
+    padding-top: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.search-bar {
+    background-color: #ffffff;
+    padding: 7px 20px;
+    width: fit-content;
+    border-radius: 1000px;
+    color: aliceblue;
+    font-weight: bold;
+    border: solid 1px #007BFF;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.kontak-bar {
+    background-color: #007BFF;
+    padding: 7px 40px;
+    width: fit-content;
+    border-radius: 1000px;
+    color: aliceblue;
+    font-weight: bold;
+    border: solid 1px #007BFF;
+}
+
+.kontak-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.multikampus-bar {
+    background-color: #ffffff;
+    padding: 7px 40px;
+    width: fit-content;
+    border-radius: 1000px;
+    color: #007BFF;
+    font-weight: bold;
+    border: solid 1px #007BFF;
+}
+
+.multikampus-bar a {
+    color: #007BFF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #007BFF;
+    padding: 20px 0 20px 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    gap: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: solid 2px white;
+}
+
+main{
+    width: auto;
+    height: 1000px;
+    background-color: #F3F3F3;
+    display: contents;
+}
+
+.box-itb {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    max-width: 300px;
+    border: solid white 4px;
+}
+
+.box-itb h2 {
+    color: yellow;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box-itb a {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-itb a:hover {
+    text-decoration: underline;
+}
+
+.judul-topik {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top:30px ;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #093c88;
+}
+
+.topics {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.topic-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.topic-item:nth-child(odd) .topic-image {
+    order: 2;
+}
+
+.topic-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.topic-content h2 {
+    color: #093c88;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topic-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.topic-content h3 a {
+    color: black;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.topic-content h3 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.topic-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+.topic-content .date {
+    font-weight: bold;
+}
+
+.topic-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topic-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #093c88;
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.medsos {
+    display: flex;
+    justify-content:center;
+}
+
+.medsos a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%
+}
+
+.medsos a i {
+    font-size: 1em;
+    color: #093c88;
+    opacity: 0.9;
+}
+
+.fa-facebook:hover {
+
+    color: #0165E1;
+    opacity: 0.9;
+}
+.fa-instagram:hover {
+
+    color: #C13584;
+    opacity: 0.9;
+}
+.fa-twitter:hover {
+
+    color: #1D9BF0;
+    opacity: 0.9;
+}
+.fa-tiktok:hover {
+
+    color: black;
+    opacity: 0.9;
+}
+.fa-youtube:hover {
+
+    color: red;
+    opacity: 0.9;
+}
+
+.footerbottom {
+    background-color: #093c88;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom a {
+    color: #F3F3F3;
+}
+
+.designer {
+    opacity: 0.7;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.alamat ul {
+    text-align: center;
+}
+.alamat ul li {
+    text-decoration: none;
+    list-style: none;
+}
